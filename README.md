@@ -43,15 +43,18 @@ This could _easily_ be something I'm not optimizing, but the summarization is _s
 
 
 ## Usage
-- assumes `uv` is installed <https://docs.astral.sh/uv/getting-started/installation/>
-- `$ cd /path/to/llm_summarizer_code/`
+
+(assumes `uv` is installed: <https://docs.astral.sh/uv/getting-started/installation/>)
+
+`$ cd /path/to/llm_summarizer_code/`
 
 Then...
-- `$ uv run ./summarizer.py  # will auto-run summarizer on the two test-files (be patient!)`
+
+`$ uv run ./summarizer.py  # will auto-run summarizer on the two test-files (be patient!)`
 
 ...or...
 
-- `$ uv run ./summarizer.py  --input_path "/path/to/target_file.txt"`
+`$ uv run ./summarizer.py  --input_path "/path/to/target_file.txt"`
 
 ---
 
@@ -67,5 +70,9 @@ Obama speech ----------------------------------------
 [05/Dec/2025 12:45:01] DEBUG [summarizer-load_input_text()::69] word_count, ``2156``
 [05/Dec/2025 12:45:50] INFO [summarizer-manage_summarization()::29] SUMMARIZATION-EXCERPT, ``I want to thank every American who participated in this election, whether you voted for the very first time or waited in line for a very long time.``
 ```
+
+---
+
+keywords: hall-hoag, hh, summarization
 
 ---
