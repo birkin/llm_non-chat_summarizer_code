@@ -1,0 +1,15 @@
+[project]
+name = "llm-non-chat-summarizer"
+version = "0.0.0"
+description = "Old summarizer experiment."
+readme = "https://github.com/birkin/llm_non-chat_summarizer_code/blob/main/README.md"
+requires-python = ">=3.8,<3.9"
+
+## will temporarily pin to specific versions during transition to pyproject.toml
+dependencies = [
+    "torch~=2.1.0",
+    "transformers~=4.35.0",
+]
+
+[dependency-groups]
+## none
