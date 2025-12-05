@@ -24,7 +24,7 @@ With upcoming Hall-Hoag work, wanted to explore summarization using a pretrained
 
 ### Quality
 
-Not satisfied. Most of my online research indicates that summarizers work by yielding representative excerpts. I got this code to do that; it now yields roughly a single representative sentence.
+__NOT SATISFIED.__ Most of my online research indicates that summarizers work by yielding representative excerpts. I got this code to do that; it now yields roughly a single representative sentence.
 
 However, I didn't want 'excerpts' as summarization. The current code, for the Obama first inaugural speech, yields:
 ```
